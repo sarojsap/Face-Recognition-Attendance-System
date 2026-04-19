@@ -1,64 +1,15 @@
-# --- Python General ---
+# Environments
+venv/
+env/
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.mypy_cache/
-.pytest_cache/
+*.pyc
 
-# --- Django & DRF ---
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-media/
-static/
-# If you use a custom static/media root for production, ignore them:
-static_cdn/
-media_cdn/
-
-# --- Environment Secrets ---
+# Django stuff
+*.sqlite3
 .env
-.venv
-env/
-venv/
-auth.json
-secrets.json
 
-# --- AI & Machine Learning ---
-# Large data files and model weights
-data/
-datasets/
-models/*.h5
-models/*.pth
-models/*.pkl
-models/*.onnx
-models/*.pb
-*.joblib
-
-# Jupyter Notebooks
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
-
-# MLflow / Weights & Biases
-mlruns/
-wandb/
-
-# --- IDEs & Editors ---
-.vscode/
-.idea/
-*.swp
-*.swo
-.DS_Store
+# Images (Don't upload personal photos to GitHub!)
+images/
+*.jpg
+*.jpeg
+*.png
